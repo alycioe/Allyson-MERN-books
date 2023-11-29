@@ -43,6 +43,6 @@ const resolvers = {
 
         saveBook: async (parent, { profileId, book })
 
-        removeBook: 
+        removeBook: async (parent, { profileId, book })
     }
 }
