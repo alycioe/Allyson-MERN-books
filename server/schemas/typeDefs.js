@@ -23,7 +23,7 @@ const typeDefs = gql`
         link: String
     }
 
-    input BookInput {
+    input newBook {
         bookId: String
         title: String
         authors: [String]
